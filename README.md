@@ -236,22 +236,20 @@ estimated_loss = total_refund_amount + (cancellation_count × avg_item_price)
 - Total customers, flagged customers, average risk score
 - Top 10 highest-risk customers table
 - Refund exposure by risk band
-
+![Customer Fraud Monitoring](dashboard/customer_fraud_monitoring.jpeg)
 
 ### Page 2 — Seller Risk Monitoring
 - Seller risk band distribution
 - Total sellers, flagged sellers, average seller risk score
 - Top 10 highest-risk sellers table
 - Refund exposure by seller risk band
+![Seller Risk Monitoring](dashboard/seller_risk_monitoring.jpeg)
 
 ### Page 3 — Financial Exposure Analysis
 - Estimated financial exposure, total refund amount, loss-to-revenue ratio
 - Estimated loss by risk band
 - Top exposure sellers table
 - Refund amount by risk band
-
-![Customer Fraud Monitoring](dashboard/customer_fraud_monitoring.jpeg)
-![Seller Risk Monitoring](dashboard/seller_risk_monitoring.jpeg)
 ![Financial Exposure Analysis](dashboard/financial_exposure.png.jpeg)
 ---
 
