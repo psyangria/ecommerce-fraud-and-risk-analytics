@@ -283,6 +283,8 @@ This project demonstrates how an e-commerce platform can:
 
 **Estimated exposure:** Cancellation losses are approximated using average item price and may not reflect actual refund amounts for cancelled orders.
 
+**Weight Sensitivity.** Since weights were assigned using business judgment rather than derived statistically, a sensitivity check was run to confirm the scoring framework is not overly dependent on the exact values. Shifting the return/refund split from 30%/30% to 35%/25% (holding cancellation, review, and delivery weights fixed) changed the risk band of 654 of 95,420 customers (0.69%). Risk classifications are therefore stable under reasonable weight perturbation, supporting the use of business-assigned weights as a transparent scoring approach in the absence of labeled fraud data.
+
 ---
 
 ## Repository Structure
